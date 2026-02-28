@@ -3,12 +3,16 @@
 
 int main()
 {
-     int code=0;
-     while(code!=12345){
-        printf("entre le code ");
-        scanf("%d", &code);
-     }
-     printf("le mdp est correct");
+    int i,notes[5];
+
+    for(i=0;i<5;i++){
+        printf("entre les nombre\n");
+        scanf("%d", &notes[i]);
+    }
+   for(i=0;i<5;i++){
+        printf(" les nombre sont %d\n", notes[i]);
+
+    }
 
     return 0;
 }
