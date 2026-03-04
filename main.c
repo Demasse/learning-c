@@ -3,16 +3,19 @@
 
 int main()
 {
-  int age = 15;
-  int *ptr = &age;
+  int x = 10;
+  int y = 20;
 
-  printf("age cest %d\n", age);
-  printf(" adres de age est %p\n", &age);
-    printf(" la valeur stocke est %d\n",ptr);
+  int *p = &x ;
+int *t = &y ;
 
-  *ptr = 25;
-    printf("le nouveaux age est %d\n", age);
+  printf("la valeur de x es %d\n", x);
+   printf("la valeur de x es %d\n", y);
 
+  *p= 40;
 
+  printf("la nouvelle valeur de x es %d\n", x);
+*t= y;
+printf("la nouvelle valeur de x es %d\n", y);
 
 }
