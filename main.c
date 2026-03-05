@@ -16,6 +16,6 @@ int *t = &y ;
 
   printf("la nouvelle valeur de x es %d\n", x);
 *t= y;
-printf("la nouvelle valeur de x es %d\n", y);
+printf("la nouvelle valeur de x est %d\n", y);
 
 }
