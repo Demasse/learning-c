@@ -1,21 +1,39 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+ void trouverExtremes( int T[], int taille, int *min, int *max){
+
+    int i;
+    *min = T[0];
+    *max = T[0];
+
+    for(i=0;i<taille; i++){
+        if(T[i]> *max){
+            *max = T[i];
+        }
+          if(T[i]< *min){
+            *min = T[i];
+        }
+    }
+
+}
+
 int main()
 {
-  int x = 10;
-  int y = 20;
+    int tab[5],i, max, min ;
 
-  int *p = &x ;
-int *t = &y ;
+    for(i=0;i<5;i++){
+        printf( "note %d: ", i + 1 );
+        scanf("%d", &tab[i]);
+    }
+    trouverExtremes(tab, 5 , &min, &max);
 
-  printf("la valeur de x es %d\n", x);
-   printf("la valeur de x es %d\n", y);
 
-  *p= 40;
+     printf("la min est %d\n", min);
+      printf("la max est %d\n", max);
 
-  printf("la nouvelle valeur de x es %d\n", x);
-*t= y;
-printf("la nouvelle valeur de x cest ca %d\n", y);
+
+
+  return 0 ;
 
 }
