@@ -30,7 +30,7 @@ int main()
 
 
      printf("la min est %d\n", min);
-      printf("la max est %d\n", maxd);
+      printf("la maximum est %d\n", max);
 
 
 
