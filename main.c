@@ -30,10 +30,9 @@ int main()
 
 
      printf("la min est %d\n", min);
-      printf("la maximum des nombre est est %d\n", max);
+     printf("la maximum des nombre est est %d\n", max);
+     printf("la maximum des nombre est est %d\n", max);
 
-
-
-  return 0 ;
+     return 0;
 
 }
