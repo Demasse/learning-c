@@ -33,6 +33,8 @@ int main()
      printf("la maximum des nombre est est %d\n", max);
      printf("la maximum des nombre est est %d\n", max);
      printf("la maximum des nombre est est %d\n", max);
+     printf("la maximum des nombre est est %d\n", max);
+
 
      return 0;
 
